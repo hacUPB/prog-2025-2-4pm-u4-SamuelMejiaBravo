@@ -29,6 +29,6 @@ def menu():    # Defino la función del Menú.
             print("Saliendo del programa.")
             break
         else:
-            print("Opción inválida, elija uno de los números indicados: ")
+            print("Opción inválida, elija uno de los números indicados: ") #Evita que se pongan números diferentes del rango [1, 4].
 
 menu() # Esto es para que pueda ejecutarse el menú sin que se ejecute automáticamente reto.py.

@@ -7,7 +7,7 @@ def presion_a_altitud(presion_hpa):
 
 historial = []  # cada elemento será un diccionario con los datos de una iteración.
 
-def main():
+def main(): # Se define como main para poder que el menú funcione.
     # Variables iniciales.
     primera_iteracion = True
     dt = 1  # intervalo fijo de 1 segundo.

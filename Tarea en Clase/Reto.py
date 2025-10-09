@@ -56,7 +56,7 @@ def main(): # Se define como main para poder que el menú funcione.
         }
         historial.append(registro)
     
-if __name__ == "__main__": # Esto es para que la función main pueda trabajar en el menú sin que se ejecute este programa instantáneamente, problema que me demoré en entender.
+if __name__ == "__main__": # Esto es para que la función main pueda trabajar en el menú sin que se ejecute este programa instantáneamente, problema que me demoré en entender pero ya quedó solucionado.
     main()
 
 ## NOTA IMPORTANTE: Este ejercicio no está bien hecho porque la lista es prácticamente inútil, le pido mil disculpas profe.
